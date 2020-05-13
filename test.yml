@@ -1,0 +1,8 @@
+---
+- name: A sample play for illustration
+  hosts: apsg2016ami@aws.baxter.com
+  tasks:
+    - name: A simple task for example playbooks
+      win_service:
+        name: spooler
+        state: started
