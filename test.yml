@@ -1,6 +1,6 @@
 ---
 - name: A sample play for illustration
-  hosts: apsg2016ami@aws.baxter.com
+  hosts: apsg2016ami100.aws.baxter.com
   tasks:
     - name: A simple task for example playbooks
       win_service:
